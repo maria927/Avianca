@@ -15,7 +15,7 @@
     
 /*3. Set the undo tablespace to be used in the system (0.125)*/
 
-
+ALTER SYSTEM SET UNDO_TABLESPACE = 'undospace';
 
 /*4. Create a DBA user (with the role DBA) and assign it to the tablespace called "avianca?", this user has
 unlimited space on the tablespace (The user should have permission to connect) (0.125)*/
